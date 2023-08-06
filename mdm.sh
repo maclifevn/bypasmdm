@@ -17,9 +17,9 @@ select opt in "${options[@]}"; do
 		fi
 		echo -e "${GRN}Tạo người dùng mới"
         echo -e "${BLU}Nhấn Enter để chuyển bước tiếp theo, có thể không điền sẽ tự động nhận giá trị mặc định"
-  		echo -e "Nhập tên người dùng (Mặc định: Macbook), có thể có dấu cách"
+  		echo -e "Nhập tên người dùng (Mặc định: Maclife), có thể có dấu cách"
 		read realName
-  		realName="${realName:=Macbook}"
+  		realName="${realName:=Maclife}"
     	echo -e "${BLUE}Nhận username ${RED}VIẾT LIỀN KHÔNG DẤU ${GRN} (Mặc định: maclife)"
       	read username
 		username="${username:=maclife}"
